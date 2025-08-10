@@ -17,7 +17,9 @@ export const metadata: Metadata = {
 export default function RootLayout({children,}: Readonly<{ children: React.ReactNode; }>) {
     return (
         <html lang="en" dir="LTR" suppressHydrationWarning={true}>
-        <ThemeModeScript/>
+        <head>
+            <ThemeModeScript/>
+        </head>
         <body className={`${oswald.className} antialiased`}>
         <div className="">
             <Navbar></Navbar>
