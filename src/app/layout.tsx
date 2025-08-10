@@ -1,38 +1,32 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import type {Metadata} from "next";
+import {Oswald} from "next/font/google";
 import "./globals.css";
-import { ThemeModeScript } from 'flowbite-react';
+import {ThemeModeScript} from 'flowbite-react';
+import Navbar from "../../components/Navbar";
+import Footer from "../../components/Footer";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const oswald = Oswald({
+    subsets: ["latin"]
 });
 
 export const metadata: Metadata = {
-  title: "AnnaScholzSolutions",
-  description: "Official website of Anna Scholz Solutions",
+    title: "AnnaScholzSolutions",
+    description: "Official website of Anna Scholz Solutions",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
-  return (
-    <html lang="en" suppressHydrationWarning={ true }>
-    <head>
-        <ThemeModeScript />
-    </head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
-    </html>
-  );
+export default function RootLayout({children,}: Readonly<{ children: React.ReactNode; }>) {
+    return (
+        <html lang="en" dir="LTR" suppressHydrationWarning={true}>
+        <ThemeModeScript/>
+        <body className={`${oswald.className} antialiased`}>
+        <div className="">
+            <Navbar></Navbar>
+            <main>
+                {children}
+            </main>
+        </div>
+        <Footer></Footer>
+        </body>
+        </html>
+    );
 }
