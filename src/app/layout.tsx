@@ -5,6 +5,7 @@ import {ThemeModeScript} from 'flowbite-react';
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 
+
 const oswald = Oswald({
     subsets: ["latin"]
 });
