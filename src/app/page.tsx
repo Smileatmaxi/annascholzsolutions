@@ -20,6 +20,7 @@ export default function Home() {
                 autoplay={true}
                 playsInline={true}
             >
+                {/*OVERLAY CONTENT*/}
                 <div
                     className="absolute inset-0 z-10 flex flex-col items-center justify-center text-center text-eggwhite bg-black/30">
                     <TextGenerateEffect duration={2.5} filter={true} words={words}/><br/>
@@ -33,8 +34,6 @@ export default function Home() {
                     </button>
                 </div>
             </Video>
-
-            {/*OVERLAY CONTENT*/}
         </section>
     );
 }

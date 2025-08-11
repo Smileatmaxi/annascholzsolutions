@@ -9,43 +9,20 @@ const Footer = () => {
                     <div className="mb-6 md:mb-0">
                         <a href="/" className="flex items-center">
                             <img src="https://flowbite.com/docs/images/logo.svg" className="h-8 me-3"
-                                 alt="FlowBite Logo"/>
+                                 alt="AnnaScholzSolutions Logo"/>
                             <span
                                 className="self-center text-2xl font-semibold whitespace-nowrap text-eggwhite">AnnaScholzSolutions</span>
                         </a>
                     </div>
-                    <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-                        <div>
-                            <h2 className="mb-6 text-sm font-semibold uppercase text-deeporange">Resources</h2>
-                            <ul className="text-eggwhite font-medium">
-                                <li className="mb-4">
-                                    <a href="https://flowbite.com/" className="hover:underline">Flowbite</a>
-                                </li>
-                                <li>
-                                    <a href="https://tailwindcss.com/" className="hover:underline">Tailwind CSS</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div>
-                            <h2 className="mb-6 text-sm font-semibold uppercase text-deeporange">Follow Me</h2>
-                            <ul className="text-eggwhite font-medium">
-                                <li className="mb-4">
-                                    <a href="https://github.com/themesberg/flowbite"
-                                       className="hover:underline ">Github</a>
-                                </li>
-                                <li>
-                                    <a href="https://www.youtube.com/@donnaderbus" className="hover:underline">Youtube</a>
-                                </li>
-                            </ul>
-                        </div>
+                    <div className="grid grid-cols-1 gap-8 sm:gap-6 sm:grid-cols-1">
                         <div>
                             <h2 className="mb-6 text-sm font-semibold  uppercase text-deeporange">Legal</h2>
                             <ul className="text-eggwhite font-medium">
                                 <li className="mb-4">
-                                    <a href="#" className="hover:underline">Privacy Policy</a>
+                                    <a href="/privacy-policy" className="hover:underline">Privacy Policy</a>
                                 </li>
                                 <li>
-                                    <a href="#" className="hover:underline">Terms &amp; Conditions</a>
+                                    <a href="/terms-and-conditions" className="hover:underline">Terms &amp; Conditions</a>
                                 </li>
                             </ul>
                         </div>
@@ -65,7 +42,7 @@ const Footer = () => {
                             </svg>
                             <span className="sr-only">Discord community</span>
                         </a>
-                        <a href="#" className="text-eggwhite hover:text-deeporange ms-5">
+                        <a href="https://www.instagram.com/anna_scholz0/" className="text-eggwhite hover:text-deeporange ms-5">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                  className="bi bi-instagram" viewBox="0 0 16 16">
                                 <path
