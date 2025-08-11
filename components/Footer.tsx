@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                 <div className="md:flex md:justify-between">
                     <div className="mb-6 md:mb-0">
-                        <a href="https://flowbite.com/" className="flex items-center">
+                        <a href="/" className="flex items-center">
                             <img src="https://flowbite.com/docs/images/logo.svg" className="h-8 me-3"
                                  alt="FlowBite Logo"/>
                             <span
@@ -27,15 +27,14 @@ const Footer = () => {
                             </ul>
                         </div>
                         <div>
-                            <h2 className="mb-6 text-sm font-semibold uppercase text-deeporange">Follow
-                                us</h2>
+                            <h2 className="mb-6 text-sm font-semibold uppercase text-deeporange">Follow Me</h2>
                             <ul className="text-eggwhite font-medium">
                                 <li className="mb-4">
                                     <a href="https://github.com/themesberg/flowbite"
                                        className="hover:underline ">Github</a>
                                 </li>
                                 <li>
-                                    <a href="https://discord.gg/4eeurUVvTy" className="hover:underline">Discord</a>
+                                    <a href="https://www.youtube.com/@donnaderbus" className="hover:underline">Youtube</a>
                                 </li>
                             </ul>
                         </div>
@@ -55,7 +54,7 @@ const Footer = () => {
                 <hr className="my-6 border-deeporange sm:mx-auto lg:my-8"/>
                 <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-eggwhite sm:text-center ">© 2025 <a
-              href="https://github.com/Smileatmaxi" className="hover:underline">Maximilian Leupold</a>. All Rights Reserved.
+              href="https://github.com/Smileatmaxi"  className="hover:underline">Maximilian Leupold</a>. All Rights Reserved.
           </span>
                     <div className="flex mt-4 sm:justify-center sm:mt-0">
                         <a href="#" className="text-eggwhite hover:text-deeporange ms-5">
