@@ -34,7 +34,7 @@ const Footer = () => {
                 <hr className="my-6 border-deeporange sm:mx-auto lg:my-8"/>
                 <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-eggwhite sm:text-center ">© 2025 <a
-              href="https://github.com/Smileatmaxi"  className="hover:underline">Maximilian Leupold</a>. All Rights Reserved.
+              href="https://github.com/Smileatmaxi"  className="hover:underline hover:text-deeporange">Maximilian Leupold</a>. All Rights Reserved.
           </span>
                     <div className="flex mt-4 sm:justify-center sm:mt-0">
                         <a href="#" className="text-eggwhite hover:text-deeporange ms-5">
