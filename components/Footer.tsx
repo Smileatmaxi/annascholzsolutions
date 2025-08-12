@@ -21,8 +21,11 @@ const Footer = () => {
                                 <li className="mb-4">
                                     <a href="/privacy-policy" className="hover:underline">Privacy Policy</a>
                                 </li>
-                                <li>
+                                <li className="mb-4">
                                     <a href="/terms-and-conditions" className="hover:underline">Terms &amp; Conditions</a>
+                                </li>
+                                <li className="mb-4">
+                                    <a href="/legal-notice" className="hover:underline">Legal Notice</a>
                                 </li>
                             </ul>
                         </div>
