@@ -127,3 +127,21 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer utilities {
+    .bg-sectionOne {
+        background-image: url('/images/MonsteraStockPicture.webp');
+    }
+    .bg-sectionTwo {
+        background-image: url('/images/pexels-ekamelev-920163.webp');
+    }
+    .bg-sectionThree {
+        background-image: url('/images/pexels-jeremy-bishop-1260133-2397651.webp');
+    }
+    .bg-sectionFour {
+        background-image: url('/images/pexels-pixabay-45170.webp');
+    }
+    .bg-sectionFive {
+        background-image: url('/images/pexels-pixabay-390051.webp');
+    }
+}

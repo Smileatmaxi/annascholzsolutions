@@ -16,25 +16,25 @@ const Navbar = () => {
                         <li>
                             <a href="/"
                                className="block py-2 px-3 text-eggwhite bg-deepgray rounded-sm md:bg-transparent md:text-eggwhite md:p-0 md:hover:text-deeporange"
-                               aria-current="page">Home</a>
+                               aria-current="page">HOME</a>
                         </li>
                         <li>
                             <a href="/about"
                                className="block py-2 px-3 text-eggwhite rounded-sm hover:bg-gray-100
                                md:hover:bg-transparent md:border-0 md:hover:text-deeporange md:p-0
-                               md:dark:hover:bg-transparent">About</a>
+                               md:dark:hover:bg-transparent">ABOUT</a>
                         </li>
                         <li>
-                            <a href="/services"
+                            <a href="/work"
                                className="block py-2 px-3 text-eggwhite rounded-sm hover:bg-gray-100
                                md:hover:bg-transparent md:border-0 md:hover:text-deeporange md:p-0
-                               md:dark:hover:bg-transparent">Services</a>
+                               md:dark:hover:bg-transparent">WORK</a>
                         </li>
                         <li>
                             <a href="/contact"
                                className="block py-2 px-3 text-eggwhite rounded-sm hover:bg-gray-100
                                md:hover:bg-transparent md:border-0 md:hover:text-deeporange md:p-0
-                               md:dark:hover:bg-transparent">Contact</a>
+                               md:dark:hover:bg-transparent">CONTACT</a>
                         </li>
                     </ul>
                 </div>

@@ -10,7 +10,7 @@ const wordsTwo = `AnnaScholzSolutions`;
 
 export default function Home() {
     return (
-        <div className="bg-eggwhite relative w-full overflow-hidden">
+        <div className="bg-deepgray relative w-full overflow-hidden">
             <section>
                 {/*VIDEO-BACKGROUND*/}
                 <Video
@@ -27,24 +27,16 @@ export default function Home() {
                         <TextGenerateEffect duration={2.5} filter={true} words={words}/><br/>
                         <span className="text-eggwhite"><TextGenerateEffect duration={2.5} filter={true}
                                                                             words={wordsTwo}/></span>
-                        <p className="text-lg md:text-xl mb-6 text-eggwhite/75">Creative Digital Media</p>
+                        <p className="text-lg md:text-xl mb-6 text-eggwhite/75">My Portfolio</p>
                         <button
                             className="mt-6 bg-eggwhite text-deepgray hover:text-deeporange font-bold py-5 px-8 rounded-4xl hover:bg-deepgray">
-                            <a href="/services">
+                            <a href="/work">
                                 HIRE ME NOW
                             </a>
                         </button>
                     </div>
                 </Video>
             </section>
-            <div className="bg-eggwhite relative h-screen">
-                <section className="max-w-screen-xl mx-auto py-24">
-                    <h1 className="mb-6 text-4xl font-extrabold leading-none tracking-tight text-deepgray md:text-4xl lg:text-5xl">
-                        MY LATEST PROJECTS
-                    </h1>
-                    <hr className="border-deeporange w-12 mb-12 border-1"/>
-                </section>
-            </div>
         </div>
     );
 }
