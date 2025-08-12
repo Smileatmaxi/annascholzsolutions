@@ -1,6 +1,6 @@
 "use client"
 
-import React from "react";
+import React, {useState} from "react";
 import Video from "next-video"
 import StockVideoFootage from "/videos/StockVideoMainPage.mp4"
 import {TextGenerateEffect} from "@/components/ui/text-generate-effect";
@@ -10,7 +10,7 @@ const wordsTwo = `AnnaScholzSolutions`;
 
 export default function Home() {
     return (
-        <div className="bg-eggwhite relative w-full overflow-hidden">
+        <div className="bg-eggwhite relative w-full h-screen overflow-hidden">
             <section>
                 {/*VIDEO-BACKGROUND*/}
                 <Video
