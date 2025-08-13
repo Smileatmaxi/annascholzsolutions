@@ -2,11 +2,11 @@
 
 import React from "react";
 import Video from "next-video"
-import StockVideoFootage from "/videos/StockVideoMainPage.mp4"
+import MainVideoFootage from "/videos/WebsiteVideo_Malediven.mov"
 import {TextGenerateEffect} from "@/components/ui/text-generate-effect";
 
 const words = `WELCOME TO`;
-const wordsTwo = `AnnaScholzSolutions`;
+const wordsTwo = `Anna Scholz`;
 
 export default function Home() {
     return (
@@ -14,7 +14,7 @@ export default function Home() {
             <section>
                 {/*VIDEO-BACKGROUND*/}
                 <Video
-                    src={StockVideoFootage}
+                    src={MainVideoFootage}
                     controls={false}
                     loop={true}
                     muted={true}
@@ -31,7 +31,7 @@ export default function Home() {
                         <button
                             className="mt-6 bg-eggwhite text-deepgray hover:text-deeporange font-bold py-5 px-8 rounded-4xl hover:bg-deepgray">
                             <a href="/work">
-                                HIRE ME NOW
+                                MY LATEST WORKS
                             </a>
                         </button>
                     </div>

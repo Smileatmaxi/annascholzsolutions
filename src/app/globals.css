@@ -7,7 +7,7 @@
 
 @theme {
   --color-deeporange: #FF7517;
-  --color-deepgray: #2C2727;
+  --color-deepgray: #212121;
   --color-eggwhite: #F6F4F4;
   --color-lightgray: #3E3939;
 }
@@ -129,6 +129,9 @@
 }
 
 @layer utilities {
+    .profile-picture {
+        background-image: url('/images/AnnaScholz.webp');
+    }
     .bg-sectionOne {
         background-image: url('/images/MonsteraStockPicture.webp');
     }
