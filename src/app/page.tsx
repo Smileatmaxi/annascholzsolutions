@@ -21,11 +21,11 @@ export default function Home() {
                     playsInline={true}
                 >
                     <div
-                        className="absolute inset-0 z-10 flex flex-col items-center justify-center text-center text-eggwhite bg-black/30">
+                        className="tracking-widest absolute inset-0 z-10 flex flex-col items-center justify-center text-center text-eggwhite bg-black/30">
                         <TextGenerateEffect duration={2.5} filter={true} words={words}/><br/>
                         <span className="text-eggwhite"><TextGenerateEffect duration={2.5} filter={true}
                                                                             words={wordsTwo}/></span>
-                        <p className="text-lg md:text-xl mb-6 text-eggwhite/75">My Portfolio</p>
+                        <p className="text-lg md:text-xl mb-6 text-eggwhite/75 tracking-widest">MY PORTFOLIO</p>
                         <button
                             className="mt-6 bg-eggwhite text-deepgray hover:text-deeporange font-bold py-5 px-8 rounded-4xl hover:bg-deepgray">
                             <a href="/work">

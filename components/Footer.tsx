@@ -12,19 +12,19 @@ const Footer = () => {
                     </a>
                     <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-eggwhite sm:mb-0">
                         <li>
-                            <a href="/terms-and-conditions" className="hover:text-deeporange me-4 md:me-6">Terms & Conditions</a>
+                            <a href="/terms-and-conditions" className="hover:text-deeporange tracking-widest me-4 md:me-6">Terms & Conditions</a>
                         </li>
                         <li>
-                            <a href="/privacy-policy" className="hover:text-deeporange me-4 md:me-6">Privacy Policy</a>
+                            <a href="/privacy-policy" className="hover:text-deeporange tracking-widest me-4 md:me-6">Privacy Policy</a>
                         </li>
                         <li>
-                            <a href="/legal-notice" className="hover:text-deeporange me-4 md:me-6">Legal Notice</a>
+                            <a href="/legal-notice" className="hover:text-deeporange tracking-widest me-4 md:me-6">Legal Notice</a>
                         </li>
                     </ul>
                 </div>
                 <hr className="my-6 border-deeporange sm:mx-auto lg:my-8"/>
-                <span className="block text-sm text-eggwhite sm:text-center">© 2025 <a
-                    href="https://github.com/Smileatmaxi" className="hover:text-deeporange">Maximilian Leupold</a>. All Rights Reserved.</span>
+                <span className="block text-sm text-eggwhite sm:text-center tracking-widest">© 2025 <a
+                    href="https://github.com/Smileatmaxi" className="tracking-widest hover:text-deeporange">Anna Scholz</a>. All Rights Reserved.</span>
             </div>
             <div className="flex mt-4 sm:justify-center sm:mt-0">
                 <a href="https://www.youtube.com/@donnaderbus" className="text-eggwhite hover:text-deeporange">
