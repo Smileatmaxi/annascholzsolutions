@@ -23,7 +23,7 @@ const Footer = () => {
                     </ul>
                 </div>
                 <hr className="my-6 border-deeporange sm:mx-auto lg:my-8"/>
-                <span className="block text-sm text-eggwhite sm:text-center">© 2023 <a
+                <span className="block text-sm text-eggwhite sm:text-center">© 2025 <a
                     href="https://github.com/Smileatmaxi" className="hover:text-deeporange">Maximilian Leupold</a>. All Rights Reserved.</span>
             </div>
             <div className="flex mt-4 sm:justify-center sm:mt-0">
