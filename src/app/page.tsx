@@ -5,14 +5,13 @@ import Video from "next-video"
 import MainVideoFootage from "/videos/WebsiteVideo_Malediven.mov"
 import {TextGenerateEffect} from "@/components/ui/text-generate-effect";
 
-const words = `WELCOME TO`;
-const wordsTwo = `Anna Scholz`;
+const words = `VIDEOGRAPHY BY`;
+const wordsTwo = `ANNA SCHOLZ`;
 
 export default function Home() {
     return (
         <div className="bg-deepgray relative w-full overflow-hidden">
             <section>
-                {/*VIDEO-BACKGROUND*/}
                 <Video
                     src={MainVideoFootage}
                     controls={false}
@@ -21,7 +20,6 @@ export default function Home() {
                     autoplay={true}
                     playsInline={true}
                 >
-                    {/*OVERLAY CONTENT*/}
                     <div
                         className="absolute inset-0 z-10 flex flex-col items-center justify-center text-center text-eggwhite bg-black/30">
                         <TextGenerateEffect duration={2.5} filter={true} words={words}/><br/>
