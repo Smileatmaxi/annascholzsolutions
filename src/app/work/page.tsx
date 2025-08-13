@@ -7,10 +7,10 @@ const Work = () => {
                 <a href="/work/client-work">
                     <div className="min-h-screen pt-6.5 pb-6.5">
                         <div className="max-w-screen-xl mx-auto py-24">
-                            <h1 className="mb-6 text-4xl font-extrabold leading-none tracking-tight text-eggwhite md:text-4xl lg:text-5xl">
+                            <h1 className="mb-2 text-4xl font-extrabold leading-none tracking-wider text-eggwhite md:text-4xl lg:text-5xl">
                                 CLIENT WORK
                             </h1>
-                            <hr className="border-deeporange w-12 mb-12 border-1"/>
+                            <hr className="border-deeporange w-14 mb-12 border-1"/>
                         </div>
                     </div>
                 </a>
@@ -19,10 +19,10 @@ const Work = () => {
                 <a href="/work/documentaries">
                     <div className="min-h-screen pt-6.5 pb-6.5">
                         <div className="max-w-screen-xl mx-auto py-24">
-                            <h1 className="mb-6 text-4xl font-extrabold leading-none tracking-tight text-eggwhite md:text-4xl lg:text-5xl">
+                            <h1 className="mb-2 text-4xl font-extrabold leading-none tracking-wider text-eggwhite md:text-4xl lg:text-5xl">
                                 DOCUMENTARIES
                             </h1>
-                            <hr className="border-deeporange w-12 mb-12 border-1"/>
+                            <hr className="border-deeporange w-14 mb-12 border-1"/>
                         </div>
                     </div>
                 </a>
@@ -31,10 +31,10 @@ const Work = () => {
                 <a href="/work/police">
                     <div className="min-h-screen pt-6.5 pb-6.5">
                         <div className="max-w-screen-xl mx-auto py-24">
-                            <h1 className="mb-6 text-4xl font-extrabold leading-none tracking-tight text-eggwhite md:text-4xl lg:text-5xl">
-                                POLICE
+                            <h1 className="mb-2 text-4xl font-extrabold leading-none tracking-wider text-eggwhite md:text-4xl lg:text-5xl">
+                                POLICE WORK
                             </h1>
-                            <hr className="border-deeporange w-12 mb-12 border-1"/>
+                            <hr className="border-deeporange w-14 mb-12 border-1"/>
                         </div>
                     </div>
                 </a>
