@@ -3,16 +3,13 @@ import React from "react";
 
 const Footer = () => {
     return (
-        <footer className="footer footer-center bg-deepgray text-base-content rounded-sm p-10 flex flex-col">
-            <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+        <footer className="footer footer-center bg-deepgray text-base-content p-10">
+            <div className="mx-auto w-full max-w-screen p-4 py-6 lg:py-8">
                 <div className="md:flex md:justify-between">
                     <a href="/" className="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
                         <img src="/icons/AnnaScholzLogoWhite.svg" className="h-8" alt="AnnaScholzSolutions Logo"/>
                     </a>
                     <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-eggwhite sm:mb-0">
-                        <li>
-                            <a href="/terms-and-conditions" className="hover:text-deeporange tracking-widest me-4 md:me-6">Terms & Conditions</a>
-                        </li>
                         <li>
                             <a href="/privacy-policy" className="hover:text-deeporange tracking-widest me-4 md:me-6">Privacy Policy</a>
                         </li>
@@ -23,7 +20,7 @@ const Footer = () => {
                 </div>
                 <hr className="my-6 border-deeporange sm:mx-auto lg:my-8"/>
                 <span className="block text-sm text-eggwhite sm:text-center tracking-widest">© 2025 <a
-                    href="https://github.com/Smileatmaxi" className="tracking-widest hover:text-deeporange">Anna Scholz</a>. All Rights Reserved.</span>
+                    href="/" className="tracking-widest hover:text-deeporange">ANNA SCHOLZ</a>. ALL RIGHTS RESERVED.</span>
             </div>
             <div className="flex mt-4 sm:justify-center sm:mt-0">
                 <a href="https://www.youtube.com/@donnaderbus" className="text-eggwhite hover:text-deeporange">
@@ -52,6 +49,10 @@ const Footer = () => {
                     </svg>
                     <span className="sr-only">Instagram Account</span>
                 </a>
+            </div>
+            <div className="text-xs tracking-widest text-eggwhite mt-4 text-right">
+<span className="block text-eggwhite">CREATED BY <a
+    href="https://github.com/Smileatmaxi" className="hover:text-deeporange">MAXIMILIAN LEUPOLD</a></span>
             </div>
         </footer>
     );
