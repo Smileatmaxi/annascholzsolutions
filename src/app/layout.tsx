@@ -11,8 +11,8 @@ const oswald = Oswald({
 });
 
 export const metadata: Metadata = {
-    title: "AnnaScholzSolutions",
-    description: "Official website of Anna Scholz Solutions",
+    title: "AnnaScholz",
+    description: "Official Portfolio of Anna Scholz",
 };
 
 export default function RootLayout({children,}: Readonly<{ children: React.ReactNode; }>) {
@@ -21,7 +21,7 @@ export default function RootLayout({children,}: Readonly<{ children: React.React
         <head>
             <ThemeModeScript/>
         </head>
-        <body className={`${oswald.className} antialiased`}>
+        <body className={`${oswald.className} antialiased flex flex-col min-h-screen`}>
         <div className="">
             <Navbar></Navbar>
             <main>
