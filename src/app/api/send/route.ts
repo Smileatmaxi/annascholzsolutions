@@ -23,18 +23,18 @@ export async function POST(request: NextRequest) {
         const userTemplate = await EmailTemplateUser({firstName, ticketNumber});
         const adminTemplate = await EmailTemplateAdmin({firstName, lastName, email, subject, message, ticketNumber});
 
-        //receiving UserData email gets send to Users Inbox
+        //receiving UserData email gets send to users Inbox
         const userEmailData = await resend.emails.send({
-            from: 'contact@illuminatedinteractive.com',
+            from: 'mail@annascholz.de',
             to: email,
-            subject: 'We have received your request!',
+            subject: 'I have received your request!',
             react: userTemplate,
         });
 
         //receiving AdminData email gets send to Admin Inbox
         const adminEmailData = await resend.emails.send({
-            from: 'contact@illuminatedinteractive.com',
-            to: 'contact@illuminatedinteractive.com',
+            from: 'mail@annascholz.de',
+            to: 'mail@annascholz.de',
             subject: 'New Inquiry received!',
             react: adminTemplate,
             replyTo: email,
@@ -42,7 +42,7 @@ export async function POST(request: NextRequest) {
 
         /** TODO Fix response error */
         if (NextResponse.json(adminEmailData.data)) {
-            return NextResponse.json({message: 'Emails successfully sent!'}, {status: 200});
+            return NextResponse.json({message: 'Email successfully sent!'}, {status: 200});
         }
         return NextResponse.json(userEmailData);
     } catch (error) {
