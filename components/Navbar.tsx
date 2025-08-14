@@ -17,16 +17,16 @@ const Navbar = () => {
                                aria-current="page">HOME</a>
                         </li>
                         <li>
-                            <a href="/about"
-                               className="block py-2 px-3 text-eggwhite tracking-widest rounded-sm hover:bg-gray-100
-                               md:hover:bg-transparent md:border-0 md:hover:text-deeporange md:p-0
-                               md:dark:hover:bg-transparent">ABOUT</a>
-                        </li>
-                        <li>
                             <a href="/work"
                                className="block py-2 px-3 text-eggwhite tracking-widest rounded-sm hover:bg-gray-100
                                md:hover:bg-transparent md:border-0 md:hover:text-deeporange md:p-0
                                md:dark:hover:bg-transparent">WORK</a>
+                        </li>
+                        <li>
+                            <a href="/about"
+                               className="block py-2 px-3 text-eggwhite tracking-widest rounded-sm hover:bg-gray-100
+                               md:hover:bg-transparent md:border-0 md:hover:text-deeporange md:p-0
+                               md:dark:hover:bg-transparent">ABOUT</a>
                         </li>
                         <li>
                             <a href="/contact"
