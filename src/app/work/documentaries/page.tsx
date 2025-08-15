@@ -7,7 +7,7 @@ const Documentaries = () => {
     return (
         <div className="bg-bg-black text-eggwhite">
             <section className="min-h-screen flex flex-col justify-center space-y-12 px-6 md:px-12 py-12">
-                <h1 className="text-center mb-6 text-4xl font-extrabold tracking-widest md:text-4xl lg:text-5xl">
+                <h1 className="text-center mb-6 text-3xl font-extrabold tracking-widest md:text-3xl lg:text-3xl">
                     DOCUMENTARIES
                     <hr className="my-6 border-deeporange sm:mx-auto lg:my-8"/>
                 </h1>
@@ -16,7 +16,7 @@ const Documentaries = () => {
                         <Video src={PoliceTeaserFootage} playsInline={true}></Video>
                     </div>
                     <div className="flex flex-col justify-center items-center space-y-4 text-center">
-                        <h1 className="mb-16 text-3xl font-extrabold tracking-widest md:text-3xl lg:text-5xl">MISSION ABROAD: BEYOND BORDERS</h1>
+                        <h1 className="mb-16 text-3xl font-extrabold tracking-widest md:text-3xl lg:text-3xl">MISSION ABROAD: BEYOND BORDERS</h1>
                         <p className="text-m tracking-wide uppercase text-center">
                             This documentary offers a rare glimpse into the work of the German Police Support Team (GPST),
                             a special unit of the German police that trains, advises, and supports law enforcement in "The Gambia".
@@ -29,7 +29,7 @@ const Documentaries = () => {
                         <Video src={MeineHeimat} playsInline={true}></Video>
                     </div>
                     <div className="flex flex-col justify-center items-center space-y-4 text-center">
-                        <h1 className="mb-16 text-3xl font-extrabold tracking-widest md:text-3xl lg:text-5xl">MEINE HEIMAT GEHÖRT ZU MIR</h1>
+                        <h1 className="mb-16 text-3xl font-extrabold tracking-widest md:text-3xl lg:text-3xl">MEINE HEIMAT GEHÖRT ZU MIR</h1>
                         <p className="text-m tracking-wide uppercase text-center">
 
                         </p>

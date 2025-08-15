@@ -17,9 +17,8 @@ const ClientWork = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                     <div className="relative">
                         <Video src={MusicVideoFootage}
-                               playsInline={true}
-
-                        ></Video>
+                               playsInline={true}>
+                        </Video>
                     </div>
                     <div className="flex flex-col justify-center items-center space-y-4 text-center">
                         <h1 className="mb-4 text-3xl font-extrabold tracking-widest md:text-3xl lg:text-3xl">MUSIC
