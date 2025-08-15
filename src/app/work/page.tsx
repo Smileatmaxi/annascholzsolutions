@@ -28,7 +28,7 @@ const Work = () => {
                 </a>
             </section>
             <section className="bg-sectionThree relative block overflow-hidden bg-no-repeat bg-cover bg-center bg-fixed">
-                <a href="/work/police">
+                <a href="/work/underwater">
                     <div className="min-h-screen pt-6.5 pb-6.5">
                         <div className="max-w-screen-xl mx-auto py-24">
                             <h1 className="mb-2 text-4xl font-extrabold leading-none tracking-widest text-eggwhite md:text-4xl lg:text-5xl">
