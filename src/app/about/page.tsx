@@ -18,11 +18,11 @@ const About = () => {
                     </div>
                     <div className="mt-4 text-center text-eggwhite text-xl">Anna Scholz</div>
                 </section>
-                <div className="flex flex-col md:items-center">
-                    <h2 className="text-orange-500 text-5xl font-bold mb-6 tracking-widest">
+                <div className="flex flex-col md:items-center lg:items-center sm:items-center">
+                    <h2 className="text-orange-500 text-4xl font-bold mb-6 tracking-widest text-center">
                         ABOUT ME
+                        <hr className="my-6 border-deeporange sm:mx-auto lg:my-8"/>
                     </h2>
-
                         <p className="text-eggwhite text-center leading-relaxed tracking-wide text-2xl max-w-xl">
                             Hi! I’m Anna, a cinematographer with a special eye for visual
                             storytelling – on land, underwater, and everywhere in between. With
