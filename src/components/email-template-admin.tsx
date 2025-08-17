@@ -2,9 +2,10 @@ import {Body, Container, Head, Heading, Hr, Html, Img, Preview, Section, Text,} 
 import * as React from 'react';
 
 interface EmailTemplateProps {
+    email: string;
     firstName: string;
     lastName: string;
-    email: string;
+    company: string;
     subject: string;
     message: string;
     ticketNumber: string;
@@ -14,13 +15,7 @@ const baseUrl = process.env.VERCEL_URL
     ? `https://${process.env.VERCEL_URL}`
     : 'https://annascholz.de';
 
-export const EmailTemplateAdmin: React.FC<Readonly<EmailTemplateProps>> = ({
-                                                                               firstName,
-                                                                               lastName,
-                                                                               email,
-                                                                               subject,
-                                                                               message,
-                                                                               ticketNumber,
+export const EmailTemplateAdmin: React.FC<Readonly<EmailTemplateProps>> = ({email, firstName, lastName, company, subject, message, ticketNumber,
                                                                            }) => (
     <Html>
         <Head/>
@@ -40,6 +35,7 @@ export const EmailTemplateAdmin: React.FC<Readonly<EmailTemplateProps>> = ({
                         <Text style={mainText}>Email: {email}</Text>
                         <Text style={mainText}>First Name: {firstName}</Text>
                         <Text style={mainText}>Last Name: {lastName}</Text>
+                        <Text style={mainText}>Company: {company}</Text>
                         <Text style={mainText}>Subject: {subject}</Text>
                         <Text style={mainText}>Message: {message}</Text>
                     </Section>

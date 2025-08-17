@@ -1,8 +1,7 @@
 import React from "react";
 import Video from "next-video"
 import MusicVideoFootage from "/videos/2024_IWO_Im_Paradies_Feinschnitt_Final.mov"
-import MeredithVideoFootage
-    from "/videos/2025_Meredith - BIP Analog film shooting in INSAS - july 2025 - Gilles Bissot (1080p, h264).mp4"
+import MeredithVideoFootage from "/videos/2025_Meredith - BIP Analog film shooting in INSAS - july 2025 - Gilles Bissot (1080p, h264).mp4"
 import PolShortFilm from "/videos/ProfisPOL_P2_Eugner-T1_finaleMASTER.mp4"
 import PolChallenge from "/videos/PolizeiChallenge2024_MASTER__v03.mp4"
 

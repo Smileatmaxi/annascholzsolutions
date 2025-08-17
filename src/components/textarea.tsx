@@ -1,0 +1,41 @@
+import React from 'react'
+
+interface TextAreaProps {
+    id: string
+    name: string
+    label: string
+    placeholder: string
+    value: string
+    required: boolean
+    onChange: (e: React.ChangeEvent<HTMLInputElement>| React.ChangeEvent<HTMLTextAreaElement>) => void
+    error: boolean
+    errorMessage: string | undefined
+}
+
+const Textarea = ({id, required, name, label, placeholder, onChange,value,error, errorMessage, ...props}: TextAreaProps) => {
+    return (
+        <div className="w-full mb-3">
+            <label className="block text-lg font-semibold text-gray-4" htmlFor={id}>{label}</label>
+            <div className="mt-2.5">
+                <textarea
+                    autoComplete="off"
+                    id={id}
+                    name={name}
+                    onChange={onChange}
+                    value={value}
+                    required={required}
+                    rows={5}
+                    minLength={15}
+                    maxLength={600}
+                    placeholder={placeholder}
+                    {...props}
+                    className="textarea validator block w-full rounded-md bg-white px-3.5 py-2 text-base text-deepgray outline-2
+                    -outline-offset-1 outline-gray-300 active:outline-2 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2
+                    focus:outline-gray-300 resize-none">
+                </textarea>
+                {error ? <p className="validator-hint text-red-600 italic text-sm mt-1">{errorMessage}</p>: null}
+            </div>
+        </div>
+    )
+}
+export default Textarea

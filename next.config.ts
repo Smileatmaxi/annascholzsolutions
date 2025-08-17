@@ -3,7 +3,7 @@ import type { NextConfig } from "next";
 import withFlowbiteReact from "flowbite-react/plugin/nextjs";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+    output: "standalone"
 };
 
 export default withNextVideo(withFlowbiteReact(nextConfig));

@@ -8,13 +8,13 @@ interface EmailTemplateProps {
 
 const baseUrl = process.env.VERCEL_URL
     ? `https://${process.env.VERCEL_URL}`
-    : 'https://illuminatedinteractive.com';
+    : 'https://annascholz.de';
 
 export const EmailTemplateUser: React.FC<Readonly<EmailTemplateProps>> = ({firstName, ticketNumber}) => (
     <Html>
         <Head/>
         <Body style={main}>
-            <Preview>IlluminatedInteractive Request Received</Preview>
+            <Preview>Anna Scholz Request Received</Preview>
             <Container style={container}>
                 <Section style={coverSection}>
                     <Section style={imageSection}>
@@ -28,26 +28,26 @@ export const EmailTemplateUser: React.FC<Readonly<EmailTemplateProps>> = ({first
                         <Heading style={h1}>Thanks for Reaching Out!</Heading>
                         <Text style={mainText}>
                             Hey {firstName},<br/>
-                            Thank you for contacting our support team! We truly appreciate you taking the time to reach
-                            out. Our team is busy working to get you the help you need, and we promise we&apos;re on it!
+                            Thank you for contacting me! I truly appreciate you taking the time to reach
+                            out. I&apos;m busy working to get you what you want!
                             <br/>
                         </Text>
                         <h3>Your Ticket Number: {ticketNumber}</h3>
                         <Text style={mainText}>
-                            Just a little note: if you happen to send us multiple support requests, it might push your
+                            Just a little note: if you happen to send me multiple requests, it might push your
                             ticket back in line. So, please try to keep it to one message at a time.
                             <br/>
-                            Your patience means the world to us.
+                            Your patience means the world to me.
                             <br/>
                             <br/>
                             Thanks,<br/>
-                            IlluminatedInteractive Team
+                            Anna Scholz
                         </Text>
                     </Section>
                     <Hr/>
                     <Section style={lowerSection}>
                         <Text style={cautionText}>
-                            This is an automated message. Please do not respond to this email. we will get in contact
+                            This is an automated message. Please do not respond to this email. I will get in touch
                             with you!
                         </Text>
                     </Section>
